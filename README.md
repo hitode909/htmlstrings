@@ -1,5 +1,7 @@
 # htmlstrings.rb
 
+strings command for HTML
+
 ```
 % curl --silent https://www.whitehouse.gov/blog | ruby htmlstrings.rb | sort | uniq -c | sort -nr | head -n 30
   52 <br />
